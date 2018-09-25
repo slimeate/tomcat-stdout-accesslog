@@ -1,6 +1,6 @@
 package de.is24.tomcat;
 
-import org.apache.catalina.valves.AbstractAccessLogValve;
+import org.apache.catalina.valves.AccessLogValve;
 
 import java.io.CharArrayWriter;
 
@@ -82,10 +82,10 @@ import java.io.CharArrayWriter;
  * </p>
  */
 
-public class StdoutAccessLogValve extends AbstractAccessLogValve {
+public class StdoutAccessLogValve extends AccessLogValve {
 
     @Override
-    protected void log(CharArrayWriter message) {
-        System.out.println(message.toCharArray());
+    public void log(String message) {
+        System.out.println(message);
     }
 }
