@@ -1,3 +1,7 @@
+## What's this
+
+A fork of https://github.com/ImmobilienScout24/tomcat-stdout-accesslog that's adapted for tomcat7
+
 [ ![Download](https://api.bintray.com/packages/immobilienscout24/maven-oss-releases-repo/tomcat-stdout-accesslog/images/download.svg) ](https://bintray.com/immobilienscout24/maven-oss-releases-repo/tomcat-stdout-accesslog/_latestVersion)
 
 Config Options from: org.apache.catalina.valves.AbstractAccessLogValve
